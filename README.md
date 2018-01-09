@@ -16,6 +16,14 @@ beautifulsoup4 4.6.0
 
     $ pip3 install beatifulsoup4
 
+OSX 사용자이면서 python 3.6+ 버전을 사용한다면 ssl 
+
+    $ /Applications/Python\ 3.6/Install\ Certificates.command
+
 ## Test machine 
 
-## How to build?
+## How to start? 
+
+    $ export FALSK_APP = ./app/main.py
+
+    $ flask run

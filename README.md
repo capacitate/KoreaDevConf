@@ -20,10 +20,18 @@ OSX 사용자이면서 python 3.6+ 버전을 사용한다면 ssl
 
     $ /Applications/Python\ 3.6/Install\ Certificates.command
 
-## Test machine 
+validators 0.12.0
+
+    $ pip3 install validators
+
+## Test
+
+    $ cd /KoreaDevConf
+
+    $ python3 -m unittest discover test
 
 ## How to start? 
 
-    $ export FALSK_APP = ./app/main.py
+    $ export FALSK_APP=main.py
 
     $ flask run

@@ -32,6 +32,6 @@ validators 0.12.0
 
 ## How to start? 
 
-    $ export FALSK_APP=main.py
+    $ export FLASK_APP=main.py
 
     $ flask run

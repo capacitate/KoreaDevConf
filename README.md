@@ -34,4 +34,12 @@ validators 0.12.0
 
     $ export FLASK_APP=main.py
 
+    $ /Applications/Python\ 3.6/Install\ Certificates.command
+
+## Test machine 
+
+## How to start? 
+
+    $ export FALSK_APP = ./app/main.py
+
     $ flask run

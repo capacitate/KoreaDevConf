@@ -26,4 +26,6 @@ class Crawler(object):
 	# 크롤링 할 홈페이지 주소 
 	def ZETA_URL(self):
 		# 제타 위키 홈페이지 주소 반환
-		return "https://zetawiki.com/wiki/2017_%EA%B5%AD%EB%82%B4_IT_%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4_%EC%9D%BC%EC%A0%95"
+		return ("https://zetawiki.com/wiki/2017"
+		"_%EA%B5%AD%EB%82%B4_IT_%EC%BB%A8%ED%8D"
+		"%BC%EB%9F%B0%EC%8A%A4_%EC%9D%BC%EC%A0%95")

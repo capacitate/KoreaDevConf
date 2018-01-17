@@ -7,6 +7,9 @@ class ZetaCrawler(Crawler):
 	"""
 
 	def __init__(self):
-		Crawler.__init__(self, super(ZetaCrawler, self).ZETA_URL())
+		url = super(ZetaCrawler, self).ZETA_URL()
+		Crawler.__init__(self, url)
 
-	
+	def get_conference_info(self):
+		p = super(ZetaCrawler, self).get_plain_text()
+		print(p)
